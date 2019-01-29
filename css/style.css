@@ -1,12 +1,54 @@
+/* -----------------------------------
+ * NAVBAR
+ * -------------------------------- */
+
+#main-nav {
+    background-color: white;
+}
+
+#main-nav .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#8C8C8C' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+#main-nav .nav-link {
+    color: #8C8C8C;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.25px;
+    transition: 0.3s;
+}
+
+#main-nav .nav-link:hover {
+    color: #666666;
+}
+
+#main-nav .nav-item.active .nav-link {
+    color: #0D3AA1;
+}
+
+/* -----------------------------------
+ * HEADER
+ * -------------------------------- */
+
 #header {
     margin-top: 56px;
     background-color: #0C4A7C;
     color: white;
 }
 
+/* -----------------------------------
+ * CARD LINKS
+ * -------------------------------- */
+
 #card-links {
     background-color: #EBEBEB;
 }
+
+/* -----------------------------------
+ * FOOTER
+ * -------------------------------- */
 
 #footer {
     background-color: #0031AB;
