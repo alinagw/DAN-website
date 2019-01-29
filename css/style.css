@@ -71,6 +71,83 @@
 
 #card-links {
     background-color: #EBEBEB;
+    padding: 12% 4%;
+}
+
+#card-links .card-deck {
+    justify-content: center;
+}
+
+.quicklink-card {
+    -webkit-box-shadow: 0px 4px 16px 0px rgba(144, 144, 144, 0.4);
+    -moz-box-shadow: 0px 4px 16px 0px rgba(144, 144, 144, 0.4);
+    box-shadow: 0px 4px 16px 0px rgba(144, 144, 144, 0.4);
+    border: none;
+    padding: 36px 24px;
+    min-width: 100%;
+    margin-bottom: 15px;
+    border-radius: 12px;
+}
+
+@media (min-width: 576px) {
+    .quicklink-card {
+        min-width: 76%;
+        margin: 0 12% !important;
+        margin-bottom: 15px !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .quicklink-card {
+        margin: 0 15px 15px 15px !important;
+        min-width: calc(50% - 30px);
+        max-width: calc(50% - 30px);
+    }
+}
+
+@media (min-width: 1012px) {
+    .quicklink-card {
+        min-width: calc(33% - 30px);
+        margin-bottom: 0;
+    }
+}
+
+.quicklink-card .card-title {
+    color: #CA3415;
+    font-family: 'Alegreya SC', serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.9px;
+}
+
+.quicklink-card .card-text {
+    font-family: 'Open Sans', sans-serif;
+    color: #666666;
+    font-size: 15px;
+}
+
+.quicklink-card .card-footer {
+    background-color: transparent;
+    border: none;
+    margin-top: 12px;
+}
+
+.quicklink-card-btn {
+    font-family: 'Open Sans', sans-serif;
+    color: #0D3AA1;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    border: 3px solid #0D3AA1;
+    border-radius: 4px;
+    padding: 10px 20px;
+    transition: 0.4s;
+}
+
+.quicklink-card-btn:hover {
+    background-color: #0D3AA1;
+    color: white;
+    text-decoration: none;
 }
 
 /* -----------------------------------
